@@ -6,3 +6,4 @@
 ### Hiding individual stats
 # :sparkling\_heart: Support the project
 # 💡*_Experiment: hidden layer formula_
+![Training & Validation Loss over Epochs](./chart/new_formula_1.png)
