@@ -5,7 +5,7 @@
 🔎(N_s)/((alpha*(N_i+N_o))+(1-alpha)*(N_i_pre)):<br>
 +  Based on the loss function, this formula promotes quicker convergence of the neural network compared to the empirical rule.
 +  Epoch 30, Train Loss: 13439495345.92, Validation Loss: 13723190328.32
-![Training & Validation Loss over Epochs](./chart/new_formula_1.png)
+![Training & Validation Loss over Epochs](./chart/new-formula_1.png)
 # 2. *_empirical rule_
 🔎(N_s)/(alpha*(N_i+N_o)):<br>
 +  The model converges around epoch 50
