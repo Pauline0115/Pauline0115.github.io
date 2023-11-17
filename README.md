@@ -25,7 +25,7 @@
 🔎hidden_size2 = 10  # Number of neurons in the second hidden layer
 +  Based on the behavior of the loss function, it is suggested to limit the training epochs to 60 to prevent overfitting. 
 +  Epoch 60, Train Loss: 13470077943.04, Validation Loss:12874699617.28
-+  ⏳Longest model training time above all<br>
++  ⌛Longest model training time above all<br>
 ![Training & Validation Loss over Epochs](./chart/user-defined.png)
 
 
