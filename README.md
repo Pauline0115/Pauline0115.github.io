@@ -7,7 +7,7 @@
 # 1. *_hidden layer formula_
 ![Training & Validation Loss over Epochs](./chart/new_formula_1.png)
 # 2. *_empirical rule_
-![Training & Validation Loss over Epochs](./chart/empirical-rule.png)
+![Training & Validation Loss over Epochs](./chart/empiricalrule.png)
 # 3. *_user defined_
 hidden_size1 = 20  # Number of neurons in the first hidden layer<br>
 hidden_size2 = 10  # Number of neurons in the second hidden layer
