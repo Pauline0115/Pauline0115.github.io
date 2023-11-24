@@ -1,6 +1,6 @@
 # Pauline0115.github.io
 
-# 💡💡Experiment:hidden layer
+# 💡💡Experiment&nbsp;:&nbsp;<u>hidden layer</u>
 # 1. *_hidden layer formula_1_
 🔎(N_s)/((alpha*(N_i+N_o))+(1-alpha)*(N_i_pre)):<br>
 +  Based on the loss function, this formula promotes quicker convergence of the neural network compared to the empirical rule.
