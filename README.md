@@ -42,7 +42,7 @@
 + 💖 Judging by the criterion of achieving a stable training accuracy of 95%, the Self-defined initializer reached 95% training accuracy at 16 training epochs, faster than He normal.
 +  Both reached 97% training accuracy at almost the same number of training epochs.
 + 💖 The Self-defined initializer can achieve a maximum training accuracy of 98%, surpassing the highest 97% achieved by He normal.
-
+![Training & Validation Acc over Epochs](./chart/Self_defined_initializer.png)
 
 
 
