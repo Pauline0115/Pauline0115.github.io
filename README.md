@@ -30,13 +30,13 @@
 
 # 💡💡Experiment_2&nbsp;:&nbsp;Weight Initializer
 # 1. *_Kaiming He Initialization_
-🔎(N_s)/((alpha*(N_i+N_o))+(1-alpha)*(N_i_pre)):<br>
+🔎math.sqrt(2.0 / fan_in):<br>
 +  At the training epoch=23, a relatively stable training accuracy of 95% was achieved; Epoch=23, Train Loss: 0.65, Validation Loss: 0.658, Training Acc: 0.958, Validation Acc: 0.958.
 +  By the training epoch=52, a more stable training accuracy of 97% was reached; Epoch 52, Train Loss: 0.6058645248413086, Validation Loss: 0.605, Training Acc: 0.979, Validation Acc: 1.0.
 ![Training & Validation Acc over Epochs](./chart/He_kaming_initializer.png)
 
 # 2. *_self-defined initializer_
-🔎(N_s)/((alpha*(N_i+N_o))+(1-alpha)*(N_i_pre)):<br>
+🔎(math.sqrt(2.0 / fan_in)) + (math.sqrt(1.0 / fan_out)):<br>
 +  At the training epoch=16, a stable training accuracy of 95% was achieved; Epoch=16, Train Loss: 0.747, Validation Loss: 0.762, Training Acc: 0.958, Validation Acc: 0.958
 +  At the training epoch=53, a stable training accuracy of 97% was reached; Epoch=53, Train Loss: 0.588, Validation Loss: 0.628, Training Acc: 0.979, Validation Acc: 0.958
 +  At the training epoch=61, a stable training accuracy of 98% was achieved; Epoch=61, Train Loss: 0.585, Validation Loss: 0.621, Training Acc: 0.989, Validation Acc: 0.958
