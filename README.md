@@ -33,6 +33,7 @@
 🔎weight initializer = math.sqrt(2.0 / fan_in):<br>
 +  At the training epoch=23, a relatively stable training accuracy of 95% was achieved; Epoch=23, Train Loss: 0.65, Validation Loss: 0.658, Training Acc: 0.958, Validation Acc: 0.958.
 +  By the training epoch=52, a more stable training accuracy of 97% was reached; Epoch 52, Train Loss: 0.6058645248413086, Validation Loss: 0.605, Training Acc: 0.979, Validation Acc: 1.0.
++ 💖 Overall, the validation accuracy of the He initializer formula is higher than that of the self-defined formula.
 ![Training & Validation Acc over Epochs](./chart/He_kaming_initializer.png)
 
 # 2. *_self-defined initializer_
